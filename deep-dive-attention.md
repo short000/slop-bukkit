@@ -1,11 +1,10 @@
-**Deep Dive into the Transformer Attention Mechanism**
+**Deep Dive into the Transformer Attention Mechanism & QKV Vectors**
 
 Chip Huyen's book "AI Engineering" Chapter 2, "Understanding Foundation Models" has a short introduction to the transformer architecture. She goes into enough Query, Key, and Value vectors (Q, K, V) details to get started, but it felt very incomplete the first time I went through it. Here are my study notes on filling that gap:
 
 1. Strongly recommended: go through all 8 of these 3Blue1Brown Neural Network videos first.
    - https://www.3blue1brown.com/topics/neural-networks
-
-Somewhat time consuming, but important enough to watch several times. I usually do not like watching videos more than once, but that series is a strong exception.
+   - Somewhat time consuming, but important enough to watch several times. I usually do not like watching videos more than once, but that series is a strong exception.
 
 2. Optional: assuming you already know back propagation (as part of the background in #1 above), it may also help for you to understand how LLMs are trained before getting into attention mechanisms.
    - Watch CodeEmporium's intro: https://www.youtube.com/watch?v=TQQlZhbC5ps
@@ -28,7 +27,19 @@ He deliberately introduces the math concepts in a highly oversimplified manner s
 6. Expose yourself to the compact math summary in Andriy Burkov's 100 Page Language Models Book. You might be able to skip to Chapter 4, "Transformers" if the content in Chapters 1 & 2 look like a review to you.
    - https://thelmbook.com
 
-6. Get Welch Lab's Illustrated Guide to AI 
-($22 PDF, $79 hard cover) It has 9 chapters, each paired with high-quality YouTube videos.
-Math dense but heavily illustrated, also backed by high quality videos dense with animated 2D and 3D visualizations.
-Chapter 8, "Attention" is paired with "How DeepSeek Rewrote the Transformer [MLA]"
+7. Get [Welch Lab's Illustrated Guide to AI](https://www.welchlabs.com/resources/ai-book-ezrzm-msrmc) 
+   - ($22 PDF, $79 hard cover) It has 9 chapters, each paired with high-quality YouTube videos.
+   - Math dense but heavily illustrated, also backed by high quality videos dense with animated 2D and 3D visualizations.
+   - Chapter 8, "Attention" is paired with "How DeepSeek Rewrote the Transformer [MLA]"
+
+**Welch Labs**
+
+Some good visual explainers:
+   - https://www.youtube.com/watch?v=D8GOeCFFby4
+   - https://www.youtube.com/watch?v=UZDiGooFs54
+   - https://www.welchlabs.com/resources/ai-book-ezrzm-msrmc
+
+**Other resources**
+   - [3Blue1Brown](https://www.3blue1brown.com/topics/neural-networks)'s 8 part series is the best visual explainer for neutral networks (he added transformer later on as well).
+   - [Chip Huyen](https://www.amazon.com/AI-Engineering-Building-Applications-Foundation/dp/1098166302/)'s AI Engineering is probably the most practical book to start with.
+   - [Michael Nielsen's free online book](http://neuralnetworksanddeeplearning.com/) is probably the most well-known free online intro to deep learning.
