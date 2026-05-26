@@ -121,6 +121,7 @@ x &= \text{ the independent variable (the predictor)} \\
 \epsilon &= \text{ the error term (the part of } y \text{ that the model cannot explain)}
 \end{align*}
 $$
+
 The algorithm's job is to find the optimal values for $\beta_0$ and $\beta_1$ that minimize the total error.
 
 ---
@@ -163,6 +164,7 @@ The model would learn how each of these factors contributes to the final price.
 ## Formal Definition
 
 The formula for multiple linear regression is:
+
 $$
 \begin{align*}
 y &= \beta_0 + \beta_1x_1 + \beta_2x_2 + \dots + \beta_nx_n + \epsilon \\
