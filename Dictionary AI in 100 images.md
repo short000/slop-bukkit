@@ -44,9 +44,11 @@ For example, when translating the sentence "The cat sat on the mat, it was happy
 ***
 ## Formal Definition
 The most common form is Scaled Dot-Product Attention, defined as:
+
 $$
 \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 $$
+
 where:
 * $Q$ (Query): The representation of the current word we are focusing on.
 * $K$ (Keys): The representations of all the words in the sequence that we can pay attention to.
@@ -134,9 +136,11 @@ For example, if a model is trying to classify an image of a cat and it outputs p
 ***
 ## Formal Definition
 For binary classification, the formula is Binary Cross-Entropy:
+
 $$
 L = -(y \log(p) + (1-y) \log(1-p))
 $$
+
 where:
 * $y$ is the true label (0 or 1).
 * $p$ is the predicted probability for the positive class.
@@ -221,6 +225,7 @@ For example, in a medical diagnosis task to detect a rare disease, you want both
 
 ***
 ## Formal Definition
+
 $$
 F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
 $$
@@ -398,6 +403,7 @@ Naive Bayes is a simple but effective probabilistic classification algorithm bas
 ***
 ## Formal Definition
 Based on Bayes' Theorem:
+
 $$
 P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
 $$
@@ -480,6 +486,7 @@ For example, in a spam filter, high precision is very important. You want to be 
 
 ***
 ## Formal Definition
+
 $$
 \text{Precision} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Positives (FP)}}
 $$
@@ -506,6 +513,7 @@ For example, in a medical test for a serious disease, high recall is critical. Y
 
 ***
 ## Formal Definition
+
 $$
 \text{Recall} = \frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Negatives (FN)}}
 $$
@@ -536,6 +544,7 @@ ReLU is an activation function widely used in deep neural networks. It is define
 
 ***
 ## Formal Definition
+
 $$
 f(x) = \max(0, x)
 $$
@@ -583,6 +592,7 @@ The sigmoid function is a mathematical function that produces an "S"-shaped curv
 
 ***
 ## Formal Definition
+
 $$
 \sigma(x) = \frac{1}{1 + e^{-x}}
 $$
@@ -618,6 +628,7 @@ For example, in a legal setting to determine guilt, high specificity is crucial.
 
 ***
 ## Formal Definition
+
 $$
 \text{Specificity} = \frac{\text{True Negatives (TN)}}{\text{True Negatives (TN)} + \text{False Positives (FP)}}
 $$
@@ -655,9 +666,11 @@ The TF-IDF score is high for words that appear frequently in one document but ra
 
 ***
 ## Formal Definition
+
 $$
 \text{TF-IDF}(t, d, D) = \text{TF}(t, d) \cdot \text{IDF}(t, D)
 $$
+
 where $\text{IDF}(t, D) = \log\left(\frac{N}{|\{d \in D: t \in d\}|}\right)$
 * $t$ is the term, $d$ is the document, $D$ is the corpus.
 * $N$ is the total number of documents in the corpus.
