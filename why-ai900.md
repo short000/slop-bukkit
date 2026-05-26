@@ -1,20 +1,18 @@
 **Azure AI-900**
 
 Why take this?
+- Easier than AWS AI Practitioner (especially if you are non-technical)
+- Understand AWS to Azure stack equivalencies
+- Covers many of the concepts from AWS AI Practitioner but applied to a different stack
+   - 2 examples help you better understand the problems and approaches separately from details related to a solution
+   - bigger picture understanding
+   - Azure and AWS leapfrog one another with the "as-a-service" offerings. Recent example: Azure IDP vs AWS IDP.
 
-Easier than AWS AI Practitioner (especially if you are non-technical)
-Understand AWS to Azure stack equivalencies
-Covers many of the concepts from AWS AI Practitioner but applied to a different stack
-2 examples helps you better understand the problems and approaches separately from details related to a solution
-bigger picture understanding
-Azure and AWS leapfrog one another with the "as-a-service" offerings. Recent example: Azure IDP vs AWS IDP.
-
-
-
+LINKS
 - Free Azure AI Fundamentals (AI-900) course
 https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/
 
-- practice exam, etc
+- Practice exam, etc
 https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#certification-prepare-for-the-exam
 
 - AI-900 YouTube playlist (Saville + freeCodeCamp.org):
